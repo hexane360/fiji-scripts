@@ -1,0 +1,18 @@
+/*
+
+!.gitignore
+!/plugins
+/plugins/*
+
+/plugins/Scripts/File/Open_EMD.py
+/plugins/Scripts/File/Open_RevSTEM.py
+
+!/plugins/Scripts/Plugins/AutoRun/*
+/plugins/Scripts/Plugins/AutoRun/Check_Required_Update_Sites.js
+
+!/macros
+/macros/listManagement.txt
+/macros/toolsets/Clear Custom Tools.txt
+/macros/toolsets/Drawing Tools.txt
+/macros/toolsets/Lookup Tables.txt
+/macros/AutoRun/AutoRun_Scripts.ijm
