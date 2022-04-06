@@ -61,7 +61,7 @@ def emd_import(path=None):
 	except ValueError:
 		raise Exception("Not an Velox HDF5/EMD file")
 
-	for group in img_groups:
+	for (i, group) in enumerate(img_groups):
 		#metadata = reader.uint8().readMDArraySlice(group.getPath() + "/Metadata", [-1, 0]).getAsFlatArray()
 		#metadata = c_char_to_string(metadata)
 		#try:
